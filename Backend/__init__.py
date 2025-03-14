@@ -19,9 +19,9 @@ def create_app():
     app.config['MAIL_SERVER'] = 'smtp.gmail.com'
     app.config['MAIL_PORT'] = 587
     app.config['MAIL_USE_TLS'] = True
-    app.config['MAIL_USERNAME'] = 'sujithsaikss@gmail.com'
-    app.config['MAIL_PASSWORD'] = 'lebe zzwt gkre tdgq'
-    app.config['MAIL_DEFAULT_SENDER'] = 'sujithsaikss@gmail.com'
+    app.config['MAIL_USERNAME'] = ''
+    app.config['MAIL_PASSWORD'] = ''
+    app.config['MAIL_DEFAULT_SENDER'] = ''
 
     db.init_app(app)
     login_manager.init_app(app)
